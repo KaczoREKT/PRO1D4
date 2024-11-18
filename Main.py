@@ -159,7 +159,7 @@ def augment_images(data):
     return np.array(augmented_images)
 
 augmented_data = augment_images(train_data)
-augmented_labels = np.tile(y_train, 5)  # Dublujemy etykiety
+augmented_labels = np.tile(y_train, 4)  # Dublujemy etykiety
 #=======================================================================================================================
 #                                                      ZADANIE 8
 #=======================================================================================================================
